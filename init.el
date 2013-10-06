@@ -11,3 +11,9 @@
 ;; ******************************  Mac
 (setq is-mac (equal system-type 'darwin))
 (when is-mac (require 'mac))
+
+
+
+
+;; ******************************  eshell
+(require 'eshell)

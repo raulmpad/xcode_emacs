@@ -1,0 +1,10 @@
+l
+l
+l
+cd .emacs.d
+l
+cd eshell/
+l
+l
+mv eshell.el ../config/
+git status
