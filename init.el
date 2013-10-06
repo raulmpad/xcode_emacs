@@ -4,3 +4,6 @@
 
 ;; ******************************  Loads primary configurartions and paths location
 (add-to-list 'load-path (concat user-emacs-directory "config"))
+
+;; Misc
+(require 'misc)
