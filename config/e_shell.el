@@ -26,4 +26,4 @@
 
 
 
-(provide 'eshell)
+(provide 'e_shell)
