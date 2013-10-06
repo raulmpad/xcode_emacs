@@ -12,6 +12,9 @@
 
   ;; Use SSH when tramping.
   (setq tramp-default-method "ssh")
+
+  ;; yes-or-no stuff
+  (fset 'yes-or-no-p 'y-or-n-p)
   )
 
 (set-misc-options)
