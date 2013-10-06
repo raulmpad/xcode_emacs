@@ -1,4 +1,4 @@
-;; ******************************  10 STARTUP
+;; ******************************  Startups
 (load (concat user-emacs-directory "startup"))
 (require 'startup)
 
@@ -8,14 +8,19 @@
 ;; ******************************  Misc
 (require 'misc)
 
+;; ******************************  System
+(require 'system)
+
+;; ******************************  Packages
+(require 'packages)
+
+
 ;; ******************************  Mac
 (setq is-mac (equal system-type 'darwin))
 (when is-mac (require 'mac))
 
-;; ******************************  System
-(require 'system)
 
 
 
 ;; ******************************  eshell
-(require 'eshell)
+(require 'e_shell)
